@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
+
                <meta charset="utf-8">
                <title>Home Page</title>
-               <link rel="stylesheet"
-               href="style.css">
+<head>
+               <link rel="stylesheet"type="text/css" href="style.css">
+               <link rel="stylesheet" type="text/css" href="nav.css">
+
 </head>
 <body>
     <!-- 
@@ -44,6 +46,66 @@ questions. So with that being said, get cooking and enjoy!
 
 
 </body>
+<nav>
+  <style>
+            
+    .dropbtn {
+      background-color: red;
+      color: white;
+      padding: 12px;
+      font-size: 12px;
+      border: none;
+      cursor: pointer;
+    }
+    
+   
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: whitesmoke;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px;
+      z-index: 1;
+    }
+    
+   
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+   
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    
+    .dropdown:hover .dropbtn {
+      background-color: whitesmoke;
+    }
+    </style>
+    
+    <div class="dropdown" style="float:right;">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="BenCserv.github.io/islt/index.html">Home</a>
+        <a href="BenCserv.github.io/islt/about.html">About</a>
+        <a href="#">projects.html</a>
+      </div>
+    </div>
+
+</nav>
 </html>
 
 
