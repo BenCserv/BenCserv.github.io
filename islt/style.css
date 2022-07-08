@@ -1,4 +1,50 @@
+body{
+    background-color: #fcf8f5;
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 300px;
+    box-sizing: border-box;
 
+}
 
+h1{
+    font-size: 75px;
+    color:black;
+    font-family: sans-serif;
+    position: relative;
+    left: 300px;
 
+    margin-bottom: 0px;
 
+}
+
+h3{
+    font-size:medium;
+    color:black;
+    margin-bottom: 0;
+    font-style: italic;
+    position: relative;
+    left: 300px;
+
+}
+
+p{
+    line-height: 30px;
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    position: relative;
+    left: 300px;
+    
+}
+
+blockquote{
+    line-height: 40px;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    position: relative;
+    left: 300px;
+}
