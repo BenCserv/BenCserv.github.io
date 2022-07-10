@@ -3,6 +3,7 @@
     color: white;
     padding: 12px;
     font-size: 12px;
+    font-family: serif;
     border: none;
     cursor: pointer;
   }
@@ -11,16 +12,18 @@
   .dropdown {
     position: relative;
     display: inline-block;
+    position: 20px;
   }
   
 
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: whitesmoke;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px;
     z-index: 1;
+
   }
   
  

@@ -1,14 +1,132 @@
 <!DOCTYPE html>
 <html>
     
-    <head>
         <meta charset="utf-8">
        <title>About Me/Educator Credentials</title>
-        <meta name="description" content="Finding your URL in GitHub">
-        <link rel="stylesheet"
-               href="style.css">
-    </head>
+        <meta name="description" content="About Page">
+
+    <head>
+    
+            <meta name="description" content="About Page">
+           <link rel="stylesheet"type="text/css" href="style.css">
+           <link rel="stylesheet" type="text/css" href="nav.css">
+
+</head>
+
+
+  
+    <style>
+
+        body{
+    font-size: 12; 
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 20px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+
+}
+
+h1{
+    position: relative;
+    left: 700px;
+    margin-bottom: 0px;
+
+}
+
+h3{
+    font-style: italic;
+    position: relative;
+    left: 700px;
+
+}
+
+p{
+    text-align: justify;
+    position: relative;
+    left: 700px;
+    
+}
+
+blockquote{
+    font-weight: bolder;
+    font-style: italic;
+    position: relative;
+    left: 0px;
+}
+
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    font-family: serif;
+    border: none;
+    cursor: pointer;
+    grid-column: 2;
+    grid-column: 1;
+  }
+  
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    position: 20px;
+    grid-column: 2;
+    grid-column: 1;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+
+  }
+  
+ 
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    grid-column: 2;
+    grid-column: 1;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropbtn {
+    background-color: whitesmoke;
+  }
+
+
+
+    </style>
     <main>
+        <nav>
+            <div class="dropdown" style="float:right;">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                  <a href="islt/index.html">Home</a>
+                  <a href="islt/about.html">About</a>
+                  <a href="#">contact.html</a>
+                  <a href="#">projects.html</a>
+                </div>
+              </div>
+        </nav>
     <body>
         <!-- comment header  -->
         <h1>About</h1>
@@ -17,7 +135,7 @@
         <br>
         
         <p>
-            As the creator of <strong>Fresco Italiano -Be Your Own Chef</strong>, I'm sure you're interested in
+            As the creator of <strong>Fresco Italiano - Be Your Own Chef</strong>, I'm sure you're interested in
             knowing my background and why cooking. I grew up in the suburbs of Chicago, going
             to school, playing sports, and being active. So when I was out of the house, the only
             thing that brought me back home was my mother's cooking. Always cooking large,
@@ -28,6 +146,11 @@
             and cooking cabinet full of great dishes. Now, I not only want to share my blends and
             tastes, but gather other peoples as well, so you can have the best Italian dishes to
             add to your recipe book!
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
             <br>
             <br>
             <br>
@@ -37,7 +160,9 @@
             <br>
             Certificate in Information Technology
             <br/>
+            <a href="https://bencserv.github.io/islt/Official%20Resume.pdf" >resume</a>
             <br/>
+            <br>
             Skills & Hobbies:
                 Music,
                 Cooking,
@@ -46,18 +171,25 @@
                 Reading,
                 Writing
                 <br/>
-                </p>
+            
             <blockquote>"I act on impulse, and I go
                 with my instincts." 
                <strong> - Gordon Ramsay</strong>
                </blockquote>
                <br>
                <br>
-               <a href="https://bencserv.github.io/islt/Official%20Resume.pdf" >resume</a>
+               <br>
+               <br>
+               <br>
+               <br>
         
         
     
     </body>
+    <footer>
+        Copyrighted@ Fresco Italiano - Be Your Own Chef
+        Location: 1311 Mulberry St, Little Italy, New York
+    </footer>
     </main>
 </html>
 
