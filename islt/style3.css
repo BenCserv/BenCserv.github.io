@@ -116,3 +116,27 @@ body{
     margin-top: 40px;
     background-image: url('Cooking.webp');
 }
+
+.i-footers:hover {
+    position: static;
+}
+
+.i-footers ul li img:hover {
+        width: 70px;
+        height: 70px;
+}
+
+.pic {
+    width: 30px;
+    height: 30px;
+}
+
+.pic2 {
+    width: 30px;
+    height: 30px;
+    transition: width 0.3s linear 0s;
+}
+
+.pic:hover + .pic2 {
+    width: 100px;
+}
