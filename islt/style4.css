@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+body{
+
+    @media (min-width: 56.25em){
+        grid-template-columns: 1fr 300px;
+    }
+}
+
+.ref-page {
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns:(10, 1fr);
+    grid-template-rows: (1fr 1fr 1fr 1fr);
+    grid-template-areas: 
+    "menu-content"
+    "top-header"
+    "reference-info"
+    "ref-footer"
+}
+
+.menu-content {
+    grid-area: menu-content;
+}
+
+.top-header {
+    color: black;
+    grid-area: top-header;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.top-header h1 {
+    font-size: 55px;
+    margin-left: 10px;
+}
+
+.reference-info {
+    color: black;
+    grid-area: paragraphs;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.ref-info {
+        font-size: 20;
+}
+
+.ref-footer {
+    color:black;
+    grid-area: extra;
+    margin-right: 900px;
+    margin-top: 145px;
+}
+
+
+
+
+
+
+
