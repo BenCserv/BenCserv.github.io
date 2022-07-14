@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+}
+
+@media print {
+    .menu-content,
+    img{
+        display:none;
+    }
+    .youtube{
+        display: none;
+    }
+
+    .paragraphs {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+        line-height: 24pt;
+        background: none;
+        color: #000;
+        position: absolute;
+    }
+
+    .top-header {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .extra {
+        left:0px;
+    }
+
+    .info-hobbies {
+        left:0px;
+    }
+
+    .icon-footers {
+        left:0px;
+        top: 0px;
+        position: center;
+    }
+    
+}
+
+body{
+
+    @media (min-width: 56.25em){
+        grid-template-columns: 1fr 300px;
+    }
+}
+
+.about-page {
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns:(10, 1fr);
+    grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr);
+    grid-template-areas: 
+    "menu-content"
+    "top-header"
+    "paragraphs"
+    "extra"
+    "info-hobbies"
+    "icon-footers"
+}
+
+.menu-content {
+    grid-area: menu-content;
+}
+
+.top-header {
+    color: black;
+    grid-area: top-header;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.top-header blockquote {
+        font-size: 60px;
+        margin-right: 300px;
+        margin-left: 20px; 
+        background-color: whitesmoke;
+        font-family: 'Roboto Slab', serif; 
+}
+
+
+.paragraphs {
+    color: black;
+    grid-area: paragraphs;
+}
+
+.info-paragraphs{
+    font-size: 22px;
+    margin-right: 700px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.extra {
+    color:black;
+    grid-area: extra;
+    margin-left: 900px;
+    margin-top: 60px;
+}
+
+.info-hobbies{
+    color: black;
+    grid-area: info-hobbies;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+.icon-footers{
+    grid-area: icon-footers;
+    margin-top: 40px;
+    background-image: url('Cooking.webp');
+}
