@@ -50,15 +50,19 @@ body{
 
 .footer-notes {
     min-height: 30%;
-    color:whitesmoke;
+    color:black;
     grid-area: info-footer;
     margin-right: 100px;
     margin-left: 170px;
     margin-top: 50px; 
+    background-image: url('Cooking.webp');
+    height: 180px;
+    left: 0px;
 }
 
 .footer-notes:hover {
     position: static;
+    color: black;
 }
 
 .footer-notes ul li img:hover {
