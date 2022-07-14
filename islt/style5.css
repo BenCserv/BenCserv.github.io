@@ -65,8 +65,38 @@ body{
     color:black;
     grid-area: info-footer;
     margin-top: 325px;
+    background-image: url('Cooking.webp');
+    height: 250px;
+    left: 0px;
+}
+
+.footer-notes:hover {
+    position: static;
+    color: black;
+}
+
+.footer-notes ul li img:hover {
+        width: 70px;
+        height: 70px;
+}
+
+.pic {
+    width: 30px;
+    height: 30px;
+}
+
+.pic2 {
+    width: 30px;
+    height: 30px;
+    transition: width 0.3s linear 0s;
+}
+
+.pic:hover + .pic2 {
+    width: 100px;
 }
 
 
-
-
+.youtube {
+    position: center;
+    margin-left: 500px;
+}

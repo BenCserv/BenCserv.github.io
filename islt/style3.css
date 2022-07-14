@@ -137,6 +137,10 @@ body{
     transition: width 0.3s linear 0s;
 }
 
+.pic3{
+    width: 30px;
+    height: 30px;
+}
 .pic:hover + .pic2 {
     width: 100px;
 }

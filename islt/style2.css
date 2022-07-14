@@ -58,6 +58,7 @@ body{
     background-image: url('Cooking.webp');
     height: 180px;
     left: 0px;
+    right: 0px;
 }
 
 .footer-notes:hover {
