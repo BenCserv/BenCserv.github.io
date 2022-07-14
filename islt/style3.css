@@ -13,13 +13,14 @@ body{
     display:grid;
     grid-gap: 5px;
     grid-template-columns:(10, 1fr);
-    grid-template-rows: (1fr 1fr 1fr 1fr 1fr);
+    grid-template-rows: (1fr 1fr 1fr 1fr 1fr 1fr);
     grid-template-areas: 
     "menu-content"
     "top-header"
     "paragraphs"
     "extra"
     "info-hobbies"
+    "icon-footers"
 }
 
 .menu-content {
@@ -69,3 +70,8 @@ body{
     margin-top: 20px;
 }
 
+.icon-footers{
+    grid-area: icon-footers;
+    margin-top: 40px;
+    background-image: url('Cooking.webp');
+}

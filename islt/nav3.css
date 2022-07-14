@@ -11,7 +11,7 @@ body{
 }
 
 .menu-content{
-    color: rgb(21, 20, 20);
+    color: whitesmoke;
     font-size: 35;
     font-weight: bold;
     
@@ -22,20 +22,48 @@ nav ul {
     margin-right: 20px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    position: relative;
 }
 
-nav ul li a{
-    color: rgb(21, 20, 20);
+nav ul li a {
+    color: black;
     font-size: 14px;
     text-transform: uppercase;
     padding: 7px 7px;
     border-radius: 3px;
 
 }
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 90px;
+
+}
+
+nav ul li:hover ul {
+    display:block;
+}
+
+nav ul li ul li {
+        width: 180px;
+        border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 18px 20px; 
+    color: black;
+}
+
+nav ul li ul li a:hover {
+    background-color: rosybrown; 
+}
+
 
 a.active, a:hover{
     background: rosybrown;
