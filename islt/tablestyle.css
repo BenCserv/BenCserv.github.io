@@ -1,0 +1,29 @@
+.tables thead {
+width: 20%;
+background-color: rosybrown;
+}
+
+.tables tbody {
+border: 1em;
+border-color: black;
+}
+
+.tables {
+    border-style: dotted black;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 600px){
+    .tables {
+        grid-template-columns: 1fr;
+
+    }
+
+    .tables thead {
+        height: 75px;
+        width: auto;
+
+    }
+}
+
+
