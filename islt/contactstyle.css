@@ -1,0 +1,122 @@
+body {
+    font-size: 14;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    }
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('itali.jpg') no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.left {
+    height: 100%;
+    background-image: url('itali.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.right {
+    padding: 30px 45px;
+
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: rosybrown;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+}
+
+.info-footer {
+    color:black;
+    grid-area: info-footer;
+    margin-top: 325px;
+    background-image: url('Cooking.webp');
+    height: 250px;
+    left: 0px;
+}
+
+.footer-notes:hover {
+    position: static;
+    color: black;
+}
+
+.footer-notes ul li img:hover {
+        width: 70px;
+        height: 70px;
+}
+
+.pic {
+    width: 30px;
+    height: 30px;
+}
+
+.pic2 {
+    width: 30px;
+    height: 30px;
+    transition: width 0.3s linear 0s;
+}
+
+.pic:hover + .pic2 {
+    width: 100px;
+}
+
+@media screen and (max-width: 750px){
+    .contact-box {
+        grid-template-columns: 1fr;
+
+    }
+
+    .left {
+        height: 175px;
+
+    }
+}
