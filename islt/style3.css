@@ -144,3 +144,8 @@ body{
 .pic:hover + .pic2 {
     width: 100px;
 }
+
+.youtube2 {
+    left: 30px;
+    margin-bottom: 200px;
+}

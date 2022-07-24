@@ -1,5 +1,19 @@
 html {
     box-sizing: border-box;
+    
+    
+}
+
+@media screen and (max-width: 750px){
+    .paragraphs {
+        grid-template-columns: 1fr;
+
+    }
+
+    .menu-content {
+        height: 50px;
+
+    }
 }
 
 body{
@@ -56,9 +70,9 @@ body{
     margin-left: 170px;
     margin-top: 50px; 
     background-image: url('Cooking.webp');
-    height: 180px;
-    left: 0px;
-    right: 0px;
+    height: 250px;
+    left: 200px;
+    right: 200px;
 }
 
 .footer-notes:hover {

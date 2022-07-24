@@ -18,7 +18,7 @@ body{
     "menu-content"
     "top-header"
     "reference-info"
-    "ref-footer"
+    "ref-footer ref-footer ref-footer"
 }
 
 .menu-content {
@@ -55,14 +55,14 @@ body{
     grid-area: extra;
     margin-right: 900px;
     margin-top: 145px;
-    background-image: url('Cooking.webp');
     height: 180px;
     left: 0px;
-    position: relative;
+    right: 0px;
+    background-color: whitesmoke;
 }
 
 .footer-info:hover {
-    position: static;
+    
     color: black;
 }
 

@@ -1,63 +1,69 @@
-html {
+* {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
 }
 
-body{
 
-    @media (min-width: 56.25em){
-        grid-template-columns: 1fr 300px;
-    }
+body {
+    background-color: rgb(244, 236, 233);
+
 }
 
-.ref-page {
-    display:grid;
-    grid-gap: 5px;
-    grid-template-columns:(10, 1fr);
-    grid-template-rows: (1fr 1fr 1fr 1fr);
-    grid-template-areas: 
-    "menu-content"
-    "top-header"
-    "paragraphs"
-    "info-footer"
-}
-
-.menu-content {
-    grid-area: menu-content;
-}
-
-.top-header {
-    color: black;
-    grid-area: top-header;
+.main-container {
     display: flex;
-    flex-direction: column;
-    align-items: start;
     justify-content: center;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+
 }
 
-.top-header h1 {
-    font-size: 55px;
-    margin-left: 10px;
-    margin-top: 40px;
+.card {
+    background: rgb(214, 197, 190);
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
 }
 
-.top-header h3 {
-    font-size: 35px;
-    margin-left: 10px;
+.card-image {
+    background-color: black;
+    height: 600px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
 }
 
-.paragraphs {
-    color: black;
-    grid-area: paragraphs;
-    margin-left: 10px;
-    margin-top: 40px;
+.card-image1 {
+    border-radius: 15px;
+    height: 300px;
 }
 
-.info-recipes1 {
-        margin-top: 30px;
+.card-image1 p {
+    margin-top: 20px;
 }
 
-.info-recipes2 {
-    margin-top: 30px;
+
+.card-image2 {
+    height: 600px;
+    border-radius: 15px;
+}
+
+.card-image2 p {
+    margin-top: 20px;
+
+}
+
+
+.card-image3 {
+    height: 950px;
+    position: center;
+    border-radius: 15px;
+}
+
+.card-image3 p {
+    margin-top: 20px;
+
 }
 
 
@@ -93,10 +99,4 @@ body{
 
 .pic:hover + .pic2 {
     width: 100px;
-}
-
-
-.youtube {
-    position: center;
-    margin-left: 500px;
 }
