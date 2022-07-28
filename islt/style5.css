@@ -5,10 +5,26 @@
     
 }
 
+html{
+    height: -webkit-fill-available;
+}
+
+@media screen and (max-width: 750px){
+    .paragraphs {
+        grid-template-columns: 1fr;
+
+    }
+
+    .menu-content {
+        height: 50px;
+
+    }
+}
+
 
 body {
     background-color: rgb(244, 236, 233);
-
+    height: -webkit-fill-available;
 }
 
 .main-container {
